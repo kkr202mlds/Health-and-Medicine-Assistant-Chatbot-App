@@ -19,7 +19,7 @@ python run_test.py
 ## Task
 - I have created the clone the DFF repo (link will appear later today) and run the code
 - I have to modify the skills codebase to get acquainted with development w the framework
-- I have to set up the meeting for me and you to plan the development of the Health and Medicine skill together
+- I have to set up the meeting and to plan the development of the Health and Medicine skill in chatbot
 
 
 
