@@ -8,7 +8,11 @@ from df_engine.core import Actor, Context
 from annotators.main import annotate
 
 
-def turn_handler(in_request: str,ctx: Union[Context, str, dict],actor: Actor,true_out_response: Optional[str] = None,
+def turn_handler(
+    in_request: str,
+    ctx: Union[Context, str, dict],
+    actor: Actor,
+    true_out_response: Optional[str] = None,
 ):
     # Context.cast - gets an object type of [Context, str, dict] returns an object type of Context
     ctx = Context.cast(ctx)
@@ -38,4 +42,3 @@ if __name__ == "__main__":
         total_time = time.time() - st_time
         print(f"exec time = {total_time:.3f}s")
 
-# /Users/kanishkkumar/Downloads/C/DK/skill/mds_skills_hackathon-mai
