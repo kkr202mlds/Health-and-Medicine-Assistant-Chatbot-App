@@ -20,7 +20,7 @@ Issues:
 
 # Week 2
 TODO:
-Create a Health and Medicine help Chatbot with help of skill hackathon Project. Health and Medicine Chatbot is explain the understanding of importance health and medicine in life.
+- Create a Health and Medicine help Chatbot with help of skill hackathon Project. Health and Medicine Chatbot is explain the understanding of importance health and medicine in life.
 
 
 WIP:
