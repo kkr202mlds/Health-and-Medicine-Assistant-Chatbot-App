@@ -12,7 +12,7 @@ WIP:
 Done:
 - I have created the clone the DFF repo (link will appear later today) and run the code
 - I have try to modify the skills codebase to get acquainted with development w the framework
-- - 20 minutes meeting with Oleg Serikov, 23.12.2022 to choice the Project which is Skill Hackathon and topic is Health and Medicine
+- - 20 minutes meeting with Oleg Serikov, 23.12.2021 to choice the Project which is Skill Hackathon and topic is Health and Medicine
 
 Issues:
 - I was confuse to implement the Actor and Context function, I need a help to desccription and implementation
@@ -36,6 +36,7 @@ Done:
 - updated scenario (condition.py, response.py, main.py)
 - run_test.py is updated.
 - Created a Health and Medicine Jupyter Notebook file.
+- - 20 minutes meeting with Oleg Serikov, 03.01.2022, understand the functioning of run_interactive and run_test condition and relation of Actor and Context function also.
 
 
 Issues:
