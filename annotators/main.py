@@ -1,8 +1,7 @@
 from df_engine.core import Context
-from .basic import binary_intent
+from .basic import yes_intent, no_intent
 
 def annotate(ctx: Context):
-    # TODO: add your own annotators
-    ctx = binary_intent(ctx)
-    # add annotation in context
+    ctx = yes_intent(ctx)
+    ctx = no_intent(ctx)
     return ctx
