@@ -17,6 +17,26 @@ Done:
 Issues:
 - I was confuse to implement the Actor and Context function, I need a help to desccription and implementation
 
+Test output:
+```
+in_request='hi' -> hi
+test passed
+```
+```
+type your answer: hey
+in_request='hey' -> hi
+exec time = 0.014s
+```
+```
+type your answer: hi
+Okey
+type your answer: Hi
+Hi!!!
+type your answer: ok
+Okey
+type your answer: ok
+Okey
+```
 
 # Week 2
 TODO:
