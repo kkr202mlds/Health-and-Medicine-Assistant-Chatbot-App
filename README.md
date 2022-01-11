@@ -17,17 +17,42 @@ Run tests
 python run_test.py
 ```
 ## Task
-- I have created the clone the DFF repo (link will appear later today) and run the code
-- I have to modify the skills codebase to get acquainted with development w the framework
-- I have to set up the meeting and to plan the development of the Health and Medicine skill in chatbot
-
-
+- Test Output:- 
+```
+type your answer: Hi
+2022-01-11 05:32:56,958-           root:104:        turn_handler():INFO - in_request=Hi ->
+ Hi I'm Health and medicine Chatbot Assitant, how may help you?
+type your answer: than
+2022-01-11 05:33:03,035-           root:104:        turn_handler():INFO - in_request=than ->
+ Sorry due to technical reason this request can't be proceed but your can go other service if needed you can type 'hi'
+type your answer: hi
+2022-01-11 05:33:07,904-           root:104:        turn_handler():INFO - in_request=hi ->
+ Hi I'm Health and medicine Chatbot Assitant, how may help you?
+type your answer: APPOINTMENT
+2022-01-11 05:33:16,764-           root:104:        turn_handler():INFO - in_request=APPOINTMENT ->
+ OK! I have book a appointment of Doctor for health checkup for you Sir
+type your answer: THANKS
+2022-01-11 05:33:21,760-           root:104:        turn_handler():INFO - in_request=THANKS ->
+ Welcome Sir/Mam
+type your answer: YES
+2022-01-11 05:33:30,146-           root:104:        turn_handler():INFO - in_request=YES ->
+ Sorry due to technical reason this request can't be proceed but your can go other service if needed you can type 'hi'
+```
 
 ## Resources
-#TODO: resources
-* Execution time: ????
-* Starting time: ????
-* RAM: ???? MB
+#TODO: TODO:
+- Modify the Health and Medicine Chatbot Assitant with help of skill hackathon Project.
+
+WIP:
+- At this point my main goal is generating better health and medicine chatbot environment and their plot , response and condition functions in order to add different functionality for the dialogs. The assistant first needs to understand similarity and difference between test output and interactive output.
+Creating this scenarios to implement them in the chatbot project.
+
+Done:
+- Modify the Health and Medicine Chatbot Assitant
+- Modify plot
+- Modify condition
+- Created the transformer
+- Modify the response
 
 ## Support links
 - [Examples of Other projects for SocialBot](https://github.com/emora-chat/emora_stdm_zoo)
