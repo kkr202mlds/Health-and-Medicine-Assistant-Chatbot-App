@@ -20,6 +20,38 @@ python run_test.py
 Week 3
 
 - Latest Test Output:- 
+- - run_test() result:-
+```
+2022-01-11 07:10:40,666-           root:104:        turn_handler():INFO - in_request=Hi ->
+ Hi I'm Health and medicine Chatbot Assitant, how may help you?
+2022-01-11 07:10:40,673-           root:104:        turn_handler():INFO - in_request=I want to book a appointment? ->
+ OK! I have book a appointment of Doctor for health checkup for you Sir
+2022-01-11 07:10:40,681-           root:104:        turn_handler():INFO - in_request=Physicians ->
+ OK! I have book a appointment of physicians Doctor for you Sir
+2022-01-11 07:10:40,695-           root:104:        turn_handler():INFO - in_request=Thanks ->
+ Welcome Sir/Mam
+2022-01-11 07:10:40,722-           root:104:        turn_handler():INFO - in_request=bye ->
+ Sure Sir, I thanks for your visit but your can go other services if needed you can type 'hi'
+2022-01-11 07:10:40,736-           root:104:        turn_handler():INFO - in_request=Hi ->
+ Hi I'm Health and medicine Chatbot Assitant, how may help you?
+2022-01-11 07:10:40,774-           root:104:        turn_handler():INFO - in_request=What is health? ->
+ Health refers to the extent of a person’s physical, mental, and social well-being. This definition, taken from the World Health Organization’s treatment of health, emphasizes that health is a complex concept that involves not just the soundness of a person’s body but also the state of a person’s mind and the quality of the social environment in which she or he lives. The quality of the social environment in turn can affect a person’s physical and mental health, underscoring the importance of social factors for these twin aspects of our overall well-being.
+2022-01-11 07:10:40,832-           root:104:        turn_handler():INFO - in_request=What is medicine ->
+ Medicine is the social institution that seeks both to prevent, diagnose, and treat illness and to promote health as just defined. Dissatisfaction with the medical establishment has been growing.Part of this dissatisfaction stems from soaring health-care costs and what many perceive as insensitive stinginess by the health insurance industry, as the 2009 battle over health-care reform illustrated. Some of the dissatisfaction also reflects a growing view that the social and even spiritual realms of human existence play a key role in health and illness. This view has fueled renewed interestin alternative medicine. We return later to these many issues for the social institution of medicine.
+2022-01-11 07:10:40,854-           root:104:        turn_handler():INFO - in_request=what is mental_health? ->
+ Mental health refers to cognitive, behavioral, and emotional well-being. It is all about how people think, feel, and behave. People sometimes use the term “mental health” to mean the absence of a mental disorder. Mental health can affect daily living, relationships, and physical health.Mental health as a state of well-being in which the individual realizes his or her own abilities, can cope with the normal stresses of life, can work productively and fruitfully, and is able to make a contribution to his or her community.
+2022-01-11 07:10:40,867-           root:104:        turn_handler():INFO - in_request=how  can are change my diet? ->
+ Diet is the sum of food consumed by a person or other organism. The word diet often implies the use of specific intake of nutrition for health or weight-management reasons (with the two often being related). Although humans are omnivores, each culture and each person holds some food preferences or some food taboos. This may be due to personal tastes or ethical reasons. Individual dietary choices may be more or less healthy.Diet includes a variety of plant-based and animal-based foods that provide nutrients tothe body. Such nutrients provide the body with energy and keep it running. Nutrients help build and strengthenbones, muscles, and tendons and also regulate body processes (i.e., blood pressure). Water is essential for growth, reproduction and good health. Macronutrients are consumed in relatively large quantities and include proteins, carbohydrates, and fats and fatty acids. Micronutrients – vitamins and minerals – are consumed in relatively smaller quantities, but are essential to body processes.
+2022-01-11 07:10:40,893-           root:104:        turn_handler():INFO - in_request=what a doctor ->
+ There is a many doctor like following:            - Physicians            - Cardiologists            - Gastroenterologists            - Dentist            - ENT specialist            - Gynaecologist            Please write type of doctor according above way
+2022-01-11 07:10:40,921-           root:104:        turn_handler():INFO - in_request=Ok ->
+ Welcome Sir/Mam
+2022-01-11 07:10:40,946-           root:104:        turn_handler():INFO - in_request=bye ->
+ Sure Sir, I thanks for your visit but your can go other services if needed you can type 'hi'
+<-- Test Successful -->
+```
+
+- - run_interactive_mode(actor) result:-
 ```
 type your answer: Hi
 2022-01-11 06:36:44,450-           root:104:        turn_handler():INFO - in_request=Hi ->
