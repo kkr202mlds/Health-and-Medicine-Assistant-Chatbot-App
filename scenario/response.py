@@ -1,6 +1,12 @@
 import re
 from typing import Optional, Union, Any
 from df_engine.core import Context, Actor
+from typing import Optional, Union
+from df_engine.core.keywords import TRANSITIONS, RESPONSE
+from df_engine.core import Context, Actor
+import df_engine.conditions as cnd
+from scenario.main import actor
+ 
 
 
 # interactive mode
