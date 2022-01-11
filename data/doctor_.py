@@ -1,0 +1,2 @@
+def doctor(user_input):
+    return"There is a many doctor like following:\n- Physicians\n- Cardiologists\n- Gastroenterologists\n- Dentist\n- ENT specialist\n- Gynaecologist\nPlease write type of doctor according above way"
