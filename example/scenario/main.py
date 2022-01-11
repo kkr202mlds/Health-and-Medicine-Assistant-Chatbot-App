@@ -10,20 +10,21 @@ plot = {
     "service": {
         LOCAL: {
             TRANSITIONS: {
-                ("funfact", "random"): loc_cnd.random_funfact_condition,
+                ("funfact", "random"): loc_cnd.health_medicine_condition,
             }
         },
-        "start": {RESPONSE: ""},
+        "start": {RESPONSE: "hi"},
         "fallback": {RESPONSE: "Sorry"},
     },
     "funfact": {
         "random": {
-            RESPONSE: rsp.random_funfact_response,
+            RESPONSE: rsp.health_medicine_response,
             TRANSITIONS: {
-                ("funfact", "random"): cnd.any([loc_cnd.random_funfact_condition, loc_cnd.another_funfact_condition])
+                ("funfact", "random"): cnd.any([loc_cnd.health_medicine_condition, loc_cnd.another_health_medicine_condition])
             },
         },
     },
 }
+
 
 actor = Actor(plot, start_label=("service", "start"), fallback_label=("service", "fallback"))
