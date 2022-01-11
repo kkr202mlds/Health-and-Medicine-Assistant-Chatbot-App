@@ -18,7 +18,50 @@ python run_test.py
 ```
 ## Task
 Week 3
-- Test Output:- 
+
+- Latest Test Output:- 
+```
+type your answer: Hi
+2022-01-11 06:36:44,450-           root:104:        turn_handler():INFO - in_request=Hi ->
+ Hi I'm Health and medicine Chatbot Assitant, how may help you?
+type your answer: What is Health
+2022-01-11 06:36:53,877-           root:104:        turn_handler():INFO - in_request=What is Health ->
+ Health refers to the extent of a person’s physical, mental, and social well-being. This definition, taken from the World Health Organization’s treatment of health, emphasizes that health is a complex concept that involves not just the soundness of a person’s body but also the state of a person’s mind and the quality of the social environment in which she or he lives. The quality of the social environment in turn can affect a person’s physical and mental health, underscoring the importance of social factors for these twin aspects of our overall well-being.
+
+type your answer: What is MEDICINE?
+2022-01-11 06:37:14,878-           root:104:        turn_handler():INFO - in_request=What is MEDICINE? ->
+  Medicine is the social institution that seeks both to prevent, diagnose, and treat illness and to promote health as just defined. Dissatisfaction with the medical establishment has been growing.Part of this dissatisfaction stems from soaring health-care costs and what many perceive as insensitive stinginess by the health insurance industry, as the 2009 battle over health-care reform illustrated. Some of the dissatisfaction also reflects a growing view that the social and even spiritual realms of human existence play a key role in health and illness. This view has fueled renewed interestin alternative medicine. We return later to these many issues for the social institution of medicine.
+
+type your answer: I want to book a appointment?
+2022-01-11 06:37:39,089-           root:104:        turn_handler():INFO - in_request=I want to book a appointment? ->
+ OK! I have book a appointment of Doctor for health checkup for you Sir
+type your answer: I WANT A DOCTOR
+2022-01-11 06:38:21,010-           root:104:        turn_handler():INFO - in_request=I WANT A DOCTOR ->
+ There is a many doctor like following:
+            - Physicians
+            - Cardiologists
+            - Gastroenterologists
+            - Dentist
+            - ENT specialist
+            - Gynaecologist
+            Please write type of doctor according above way
+          
+type your answer: Physicians
+2022-01-11 06:38:29,001-           root:104:        turn_handler():INFO - in_request=Physicians ->
+ OK! I have book a appointment of physicians Doctor for you Sir
+type your answer: thanks
+2022-01-11 06:40:07,215-           root:104:        turn_handler():INFO - in_request=thanks ->
+ Welcome Sir/Mam
+type your answer: bye
+2022-01-11 06:40:10,764-           root:104:        turn_handler():INFO - in_request=bye ->
+ Sure Sir, I thanks for your visit but your can go other services if needed you can type 'hi'
+type your answer: HI
+2022-01-11 06:40:15,611-           root:104:        turn_handler():INFO - in_request=HI ->
+ Hi I'm Health and medicine Chatbot Assitant, how may help you?
+```
+
+
+- Old Test Output:-
 ```
 type your answer: Hi
 2022-01-11 05:32:56,958-           root:104:        turn_handler():INFO - in_request=Hi ->
