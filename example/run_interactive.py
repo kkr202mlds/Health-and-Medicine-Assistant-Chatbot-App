@@ -8,6 +8,7 @@ from df_engine.core import Actor, Context
 from annotators.main import annotate
 
 
+
 def turn_handler(
     in_request: str,
     ctx: Union[Context, str, dict],
@@ -25,13 +26,13 @@ def turn_handler(
     ctx = actor(ctx)
     # get last actor response from the context
     out_response = ctx.last_response
-    print(out_response)
     # the next condition branching needs for testing
     if true_out_response is not None and true_out_response != out_response:
         raise Exception(f"{in_request=} -> true_out_response != out_response: {true_out_response} != {out_response}")
     else:
         print(f"{in_request=} -> {out_response}")
     return out_response, ctx
+
 
 
 if __name__ == "__main__":
