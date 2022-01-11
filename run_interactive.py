@@ -8,7 +8,7 @@ import df_engine.conditions as cnd
 
 
 
-# turn_handler - a function is made for the convenience of working with an actor
+## turn_handler - a function is made for the convenience of working with an actor
 def turn_handler(
     in_request: str, ctx: Union[Context, str, dict], actor: Actor, true_out_response: Optional[str] = None
 ):
