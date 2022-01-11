@@ -133,11 +133,12 @@ type your answer: YES
 
 ## Resources
 #TODO: TODO:
-- Modify the Health and Medicine Chatbot Assitant with help of skill hackathon Project.
+- Modify the Health and Medicine Chatbot Assitant with help of skill hackathon Project. Make the Chatbot more friendly and interactive and include the health and medicine information in Chatbot.
 
 WIP:
 - At this point my main goal is generating better health and medicine chatbot environment and their plot , response and condition functions in order to add different functionality for the dialogs. The assistant first needs to understand similarity and difference between test output and interactive output.
 Creating this scenarios to implement them in the chatbot project.
+- Provide more information abot Health and Medicine Chatbot Assitant Serive
 
 Done:
 - Modify the Health and Medicine Chatbot Assitant
@@ -145,6 +146,7 @@ Done:
 - Modify condition
 - Make the transformer of Health and Medicine Chatbot Assitant
 - Modify the response
+- Add Data file in Chatbot
 
 ## Support links
 - [Examples of Other projects for SocialBot](https://github.com/emora-chat/emora_stdm_zoo)
