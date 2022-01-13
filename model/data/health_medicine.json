@@ -1,0 +1,35 @@
+{
+  "intents": [
+      {
+          "tags": "health",
+          "patterns": ["What is health?","define health", "Improve health"],
+          "responses": "Health refers to the extent of a person’s physical, mental, and social well-being. This definition, taken from the World Health Organization’s treatment of health, emphasizes that health is a complex concept that involves not just the soundness of a person’s body but also the state of a person’s mind and the quality of the social environment in which she or he lives. The quality of the social environment in turn can affect a person’s physical and mental health, underscoring the importance of social factors for these twin aspects of our overall well-being." 
+      },
+      {
+          "tags": "medicine",
+          "patterns": ["importance of medicine?","scenario of medicine", "Improve medicine"],
+          "responses": "Medicine is the social institution that seeks both to prevent, diagnose, and treat illness and to promote health as just defined. Dissatisfaction with the medical establishment has been growing. Part of this dissatisfaction stems from soaring health-care costs and what many perceive as insensitive stinginess by the health insurance industry, as the 2009 battle over health-care reform illustrated. Some of the dissatisfaction also reflects a growing view that the social and even spiritual realms of human existence play a key role in health and illness. This view has fueled renewed interest in alternative medicine. We return later to these many issues for the social institution of medicine."
+      },
+      {   
+          "tags": "mental health",
+          "patterns": ["Explain mental health?","Provide mental health", "Improve mental health"],
+          "responses": "Mental health as a state of well-being in which the individual realizes his or her own abilities, can cope with the normal stresses of life, can work productively and fruitfully, and is able to make a contribution to his or her community"
+      },
+     {
+         "tags": "clinical",
+         "patterns": [" How to do  clinical practice?","define clinical", "Improve clinical"],
+          "responses": "Clinical practice, physicians and physician assistants personally assess patients in order to diagnose, prognose, treat, and prevent disease using clinical judgment. The doctor-patient relationship typically begins an interaction with an examination of the patient's medical history and medical record, followed by a medical interview[10] and a physical examination."
+
+     },
+     {
+        "tags": "diet",
+        "patterns": ["Improve diet?","which include in a diet", "define diet"],
+        "responses": "Diet includes a variety of plant-based and animal-based foods that provide nutrients to the body. Such nutrients provide the body with energy and keep it running. Nutrients help build and strengthen bones, muscles, and tendons and also regulate body processes (i.e., blood pressure). Water is essential for growth, reproduction and good health. Macronutrients are consumed in relatively large quantities and include proteins, carbohydrates, and fats and fatty acids. Micronutrients – vitamins and minerals – are consumed in relatively smaller quantities, but are essential to body processes."
+     },
+     {
+       "tags": "physical examination",
+       "patterns": ["How to know about physical examination?","Explain physical examination", "Provide physical examination"],
+       "responses": " physical examination is the examination of the patient for medical signs of disease, which are objective and observable, in contrast to symptoms that are volunteered by the patient and not necessarily objectively observable.[12] The healthcare provider uses sight, hearing, touch, and sometimes smell (e.g., in infection, uremia, diabetic ketoacidosis). Four actions are the basis of physical examination: inspection, palpation (feel), percussion (tap to determine resonance characteristics), and auscultation (listen), generally in that order although auscultation occurs prior to percussion and palpation for abdominal assessments."
+     }
+            ]
+}
