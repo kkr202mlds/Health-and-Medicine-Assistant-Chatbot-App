@@ -1,3 +1,8 @@
+#PyTorch
+import torch
+import torch.nn as nn
+from torch.utils.data import Dataset, DataLoader
+
 
 dataset = ChatDataset()
 train_loader = DataLoader(dataset=dataset,
