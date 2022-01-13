@@ -88,6 +88,61 @@ exec time = 0.007s
 
 # Week 3
 
+TODO:
+- To Create graph with help of model and improve accurancy and evaluation of Health and Medicine help Chatbot with the model and graph
+
+
+WIP:
+- At this point my main goal is create graph with help of Neural Network Model and using different library Natural Language Toolkit(nltk), Stemming and matplotlib.
+- Implement Data Loading and Data Preprocessing in the model
+- Implement Bag of words, Tokenization ideas in the model
+- Creating this scenarios to implement them in the code
+
+
+Done:
+- Started with creation of basic functions
+- In annotators.basic.py I implemented a yes_intent and no_intent function which helps to determine if user confirms or denies, after that it writes the intent inside ctx.misc. Added yes_intent and no_intent function inside annotate function in main.py
+- Created the conditions (health, medicine)
+-Created responses for health and medicine chatbot that use a function.
+- updated scenario (condition.py, response.py, main.py)
+- run_test.py is updated.
+- Created a Health and Medicine Jupyter Notebook file.
+- - 20 minutes meeting with Oleg Serikov, 03.01.2022, understand the functioning of run_interactive and run_test condition and relation of Actor and Context function also.
+
+
+Issues:
+- I was try lot of new non mainstream languages, I need a help to create new ideas in Health and Medicine Chatbot Project.
+
+Test output:
+```
+in_request='hi' -> Sorry
+time = 1.0119192600250244
+in_request='health' -> Health refers to the extent of a person’s physical, mental, and social well-being. This definition, taken from the World Health Organization’s treatment of health, emphasizes that health is a complex concept that involves not just the soundness of a person’s body but also the state of a person’s mind and the quality of the social environment in which she or he lives. The quality of the social environment in turn can affect a person’s physical and mental health, underscoring the importance of social factors for these twin aspects of our overall well-being.
+time = 1.0170891284942627
+test passed
+```
+```
+type your answer: hi
+in_request='hi' -> Sorry
+exec time = 0.008s
+type your answer: health
+in_request='health' -> Health refers to the extent of a person’s physical, mental, and social well-being. This definition, taken from the World Health Organization’s treatment of health, emphasizes that health is a complex concept that involves not just the soundness of a person’s body but also the state of a person’s mind and the quality of the social environment in which she or he lives. The quality of the social environment in turn can affect a person’s physical and mental health, underscoring the importance of social factors for these twin aspects of our overall well-being.
+exec time = 0.005s
+type your answer: medicine
+in_request='medicine' -> Medicine is the social institution that seeks both to prevent, diagnose, and treat illness and to promote health as just defined. Dissatisfaction with the medical establishment has been growing. Part of this dissatisfaction stems from soaring health-care costs and what many perceive as insensitive stinginess by the health insurance industry, as the 2009 battle over health-care reform illustrated. Some of the dissatisfaction also reflects a growing view that the social and even spiritual realms of human existence play a key role in health and illness. This view has fueled renewed interest in alternative medicine. We return later to these many issues for the social institution of medicine.
+exec time = 0.007s
+```
+
+- - I got analysis of my project as you can see in a graph:-
+- - - 
+
+![image](https://user-images.githubusercontent.com/96828026/149247648-457a79bf-e421-4d77-8609-ed6e408b944d.png)
+
+- - - #Plot Between Evaluation Accuracy  vs Evaluation Losses
+
+![image](https://user-images.githubusercontent.com/96828026/149247877-5aef1424-407c-419d-9482-d221fbb42d33.png)
+
+
 
 # Week 4
 ....
