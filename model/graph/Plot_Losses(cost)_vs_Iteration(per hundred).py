@@ -1,3 +1,5 @@
+import matplotlib.pyplot as plt
+%matplotlib inline
 from Implementation.Train_the_model import costs
 from Implementation.Hyper-parameters. import learning_rate
 
