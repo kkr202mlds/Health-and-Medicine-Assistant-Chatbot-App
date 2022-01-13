@@ -1,4 +1,6 @@
-
+from Hyper-parameters import num_epochs
+from Loss_and_optimizer import criterion, optimizer
+from Data_Loader_with_Model import device, train_loader
 
 
 running_loss=0
