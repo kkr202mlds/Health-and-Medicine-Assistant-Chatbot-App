@@ -2,6 +2,7 @@
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset
+from Creating_X_train_Y_train import X_train, y_train 
 
 
 class ChatDataset(Dataset):
