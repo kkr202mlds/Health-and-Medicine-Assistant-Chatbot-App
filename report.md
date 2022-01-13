@@ -81,8 +81,13 @@ type your answer: medicine
 in_request='medicine' -> Medicine is the social institution that seeks both to prevent, diagnose, and treat illness and to promote health as just defined. Dissatisfaction with the medical establishment has been growing. Part of this dissatisfaction stems from soaring health-care costs and what many perceive as insensitive stinginess by the health insurance industry, as the 2009 battle over health-care reform illustrated. Some of the dissatisfaction also reflects a growing view that the social and even spiritual realms of human existence play a key role in health and illness. This view has fueled renewed interest in alternative medicine. We return later to these many issues for the social institution of medicine.
 exec time = 0.007s
 ```
+
+-- I got analysis of my project as you can see in a graph:-
+
+![image](https://user-images.githubusercontent.com/96828026/149023284-53dec799-358b-43f4-8db1-5437a48aa9ff.png)
+
 # Week 3
-....
+
 
 # Week 4
 ....
