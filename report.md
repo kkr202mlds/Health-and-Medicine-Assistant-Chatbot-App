@@ -103,12 +103,16 @@ WIP:
 
 
 Done:
-- Modify the Health and Medicine Chatbot Assitant
-- Modify plot
-- Modify condition
+- Modify the Health and Medicine Chatbot Assitant and modify the plot and condition code
 - Make the transformer of Health and Medicine Chatbot Assitant
-- Modify the response
-- Add Data file in Chatbot
+- Modify the response, Create Data folder and add Data files in Data folder in Chatbot Project Github
+- Create Neural Network Model in model folder and create graph in graph folder
+- With help of Neural Network model, graph is plotted and generated the losses and no. of epochs(iterations).
+- In model, Create data folder in which health and medicine json file.
+- Create implementation folder in which nltk.tools(Tokenization, Stemming and Bag of words), PorterStemmer, torch and matplotlib library.
+- In NN model, Data Processing, create X_train, y_trian dataset, Hyper-parameters, Chat Dataset, Data Loader and Device config, Train the model, Loss, Criteria and Optimizer steps are present.
+- Graph Plot between the Losses(cost) vs Iteration(per hundred).
+- Graph Plot Between Evaluation Accuracy  vs Evaluation Losses.
 
 
 Issues:
