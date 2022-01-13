@@ -133,8 +133,7 @@ in_request='medicine' -> Medicine is the social institution that seeks both to p
 exec time = 0.007s
 ```
 
-- - I got analysis of my project as you can see in a graph:-
-- - - 
+- - - I got analysis of my project as you can see in a graph:-
 
 ![image](https://user-images.githubusercontent.com/96828026/149247648-457a79bf-e421-4d77-8609-ed6e408b944d.png)
 
