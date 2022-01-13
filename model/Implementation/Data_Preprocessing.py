@@ -1,5 +1,5 @@
 from Data_load_with_file import intents
-from nltk import 
+from nltk_utils import tokenize, stem, bag_of_words
 
 
 all_words = []
