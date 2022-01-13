@@ -95,7 +95,7 @@ TODO:
 WIP:
 - At this point my main goal is create graph with help of Neural Network Model and using different library Natural Language Toolkit(nltk), Stemming and matplotlib.
 - Implement Data Loading and Data Preprocessing in the model
-- Implement Bag of words, Tokenization ideas in the model
+- Implement Bag of words, Tokenization ideas, Hyper-parameters, Chat Dataset,  Loss and optimizer in the  Neural Network model
 - Creating this scenarios to implement them in the code
 
 
@@ -133,11 +133,12 @@ in_request='medicine' -> Medicine is the social institution that seeks both to p
 exec time = 0.007s
 ```
 
-- - - I got analysis of my project as you can see in a graph:-
+- - I got analysis of my project as you can see in a graph:-
+- - - 
 
 ![image](https://user-images.githubusercontent.com/96828026/149247648-457a79bf-e421-4d77-8609-ed6e408b944d.png)
 
-- - - #Plot Between Evaluation Accuracy  vs Evaluation Losses
+- - - Plot Between Evaluation Accuracy  vs Evaluation Losses
 
 ![image](https://user-images.githubusercontent.com/96828026/149247877-5aef1424-407c-419d-9482-d221fbb42d33.png)
 
