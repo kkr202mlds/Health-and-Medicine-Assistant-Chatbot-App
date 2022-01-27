@@ -221,4 +221,142 @@ type your answer: good
 
 
 # Week 4
-....
+
+TODO:
+- I was make new Non-Mainstream Languages Health and Medicine Chatbot Assitant and also contain Mainstream Languages Health and Medicine Chatbot Assitant inbuilt.
+
+
+WIP:
+- At this point my main goal is generating non-mainstream health and medicine chatbot environment, response and condition functions in order to add different languages functionality for the train and test health and medicine dialogs. That assistant first needs to understand different languages between test output and interactive output.
+- Creating this scenarios to implement them in the Chatbot Project.
+- Provide more languages about Health and Medicine Chatbot Assitant Service.
+- Creating this scenarios to implement them in the code
+
+
+Done:
+- Modify the Health and Medicine Chatbot Assitant
+-  the transformer of Health and Medicine Chatbot Assitant
+-  Generate new Health and Medicine Chatbot Assitant Support Service
+- Modify the response, Create Data folder and add Data files in Data folder in Chatbot Project Github
+- Create Neural Network Model in model folder and create graph in graph folder
+- With help of Neural Network model, graph is plotted and generated the losses and no. of epochs(iterations).
+- In model, Create data folder in which health and medicine json file.
+- Create implementation folder in which nltk.tools(Tokenization, Stemming and Bag of words), PorterStemmer, torch and matplotlib library.
+- In NN model, Data Processing, create X_train, y_trian dataset, Hyper-parameters, Chat Dataset, Data Loader and Device config, Train the model, Loss, Criteria and Optimizer steps are present.
+- Graph Plot between the Losses(cost) vs Iteration(per hundred).
+- Graph Plot Between Evaluation Accuracy  vs Evaluation Losses.
+
+
+Issues:
+- I was try lot of new non mainstream languages, I need a help to create new ideas in Health and Medicine Chatbot Project.
+
+Test output:
+
+- - run_test() result:-
+
+```
+- English
+2022-01-27 08:00:34,556-           root:105:        turn_handler():INFO - in_request=Hi ->
+ Hi I'm Health and medicine Chatbot Assitant, how may help you?
+2022-01-27 08:00:34,572-           root:105:        turn_handler():INFO - in_request=I want to book a appointment? ->
+ OK! I have book a appointment of Doctor for health checkup for you Sir
+2022-01-27 08:00:34,582-           root:105:        turn_handler():INFO - in_request=I want a doctor ->
+ There is a many doctor like following:
+- Physicians
+- Cardiologists
+- Gastroenterologists
+- Dentist
+- ENT specialist
+- Gynaecologist
+Please write type of doctor according above way
+2022-01-27 08:00:34,601-           root:105:        turn_handler():INFO - in_request=I Really want a Physicians ->
+ OK! I have book a appointment of physicians Doctor for you Sir
+2022-01-27 08:00:34,614-           root:105:        turn_handler():INFO - in_request=Urgently want a Gastroenterologists ->
+ OK! I have book a appointment of gastroenterologists Doctor for you Sir
+2022-01-27 08:00:34,630-           root:105:        turn_handler():INFO - in_request=I have problem in my ear, Can book a ENT specialist ->
+ OK! I have book a appointment of ent specialist Doctor for you Sir
+2022-01-27 08:00:34,645-           root:105:        turn_handler():INFO - in_request=I want a Dentist for my teeth ->
+ OK! I have book a appointment of dentist Doctor for you Sir
+2022-01-27 08:00:34,667-           root:105:        turn_handler():INFO - in_request=I have heart problem, book a Cardiologists ->
+ OK! I have book a appointment of cardiologists Doctor for you Sir
+2022-01-27 08:00:34,687-           root:105:        turn_handler():INFO - in_request=Thanks ->
+ Welcome Sir/Mam
+2022-01-27 08:00:34,705-           root:105:        turn_handler():INFO - in_request=bye ->
+ Sure Sir, I thanks for your visit but your can go other services if needed you can type 'hi'
+2022-01-27 08:00:34,725-           root:105:        turn_handler():INFO - in_request=Hi ->
+ Hi I'm Health and medicine Chatbot Assitant, how may help you?
+2022-01-27 08:00:34,737-           root:105:        turn_handler():INFO - in_request=What is health? ->
+ Health refers to the extent of a person’s physical, mental, and social well-being. This definition, taken from the World Health Organization’s treatment of health, emphasizes that health is a complex concept that involves not just the soundness of a person’s body but also the state of a person’s mind and the quality of the social environment in which she or he lives. The quality of the social environment in turn can affect a person’s physical and mental health, underscoring the importance of social factors for these twin aspects of our overall well-being.
+2022-01-27 08:00:34,759-           root:105:        turn_handler():INFO - in_request=Define a medicine ->
+ Medicine is the social institution that seeks both to prevent, diagnose, and treat illness and to promote health as just defined. Dissatisfaction with the medical establishment has been growing.Part of this dissatisfaction stems from soaring health-care costs and what many perceive as insensitive stinginess by the health insurance industry, as the 2009 battle over health-care reform illustrated. Some of the dissatisfaction also reflects a growing view that the social and even spiritual realms of human existence play a key role in health and illness. This view has fueled renewed interestin alternative medicine. We return later to these many issues for the social institution of medicine.
+2022-01-27 08:00:34,771-           root:105:        turn_handler():INFO - in_request=what is mental_health? ->
+ Mental health refers to cognitive, behavioral, and emotional well-being. It is all about how people think, feel, and behave. People sometimes use the term “mental health” to mean the absence of a mental disorder. Mental health can affect daily living, relationships, and physical health.Mental health as a state of well-being in which the individual realizes his or her own abilities, can cope with the normal stresses of life, can work productively and fruitfully, and is able to make a contribution to his or her community.
+2022-01-27 08:00:34,793-           root:105:        turn_handler():INFO - in_request=how  can are change my diet? ->
+ Diet is the sum of food consumed by a person or other organism. The word diet often implies the use of specific intake of nutrition for health or weight-management reasons (with the two often being related). Although humans are omnivores, each culture and each person holds some food preferences or some food taboos. This may be due to personal tastes or ethical reasons. Individual dietary choices may be more or less healthy.Diet includes a variety of plant-based and animal-based foods that provide nutrients to the body. Such nutrients provide the body with energy and keep it running. Nutrients help build and strengthen bones, muscles, and tendons and also regulate body processes (i.e., blood pressure). Water is essential for growth, reproduction and good health. Macronutrients are consumed in relatively large quantities and include proteins, carbohydrates, and fats and fatty acids. Micronutrients – vitamins and minerals – are consumed in relatively smaller quantities, but are essential to body processes.
+2022-01-27 08:00:34,816-           root:105:        turn_handler():INFO - in_request=I want a doctor ->
+ There is a many doctor like following:
+- Physicians
+- Cardiologists
+- Gastroenterologists
+- Dentist
+- ENT specialist
+- Gynaecologist
+Please write type of doctor according above way
+2022-01-27 08:00:34,838-           root:105:        turn_handler():INFO - in_request=Thanks ->
+ Welcome Sir/Mam
+2022-01-27 08:00:34,855-           root:105:        turn_handler():INFO - in_request=Good Service ->
+ Welcome Sir/Mam
+2022-01-27 08:00:34,882-           root:105:        turn_handler():INFO - in_request=bye ->
+ Sure Sir, I thanks for your visit but your can go other services if needed you can type 'hi'
+<-- Test Successful -->
+```
+- - run_interactive_mode(actor) result:-
+
+```
+type your answer: hey
+2022-01-11 07:23:17,806-           root:104:        turn_handler():INFO - in_request=hey ->
+ Hi I'm Health and medicine Chatbot Assitant, how may help you?
+type your answer: I want an appointment of doctor
+2022-01-11 07:23:43,606-           root:104:        turn_handler():INFO - in_request=I want an appointment of doctor ->
+ OK! I have book a appointment of Doctor for health checkup for you Sir
+type your answer: which doctor
+2022-01-11 07:23:52,099-           root:104:        turn_handler():INFO - in_request=which doctor ->
+ There is a many doctor like following:
+- Physicians
+- Cardiologists
+- Gastroenterologists
+- Dentist
+- ENT specialist
+- Gynaecologist
+Please write type of doctor according above way
+type your answer: Physicians
+2022-01-11 07:24:06,826-           root:104:        turn_handler():INFO - in_request=Physicians ->
+ OK! I have book a appointment of physicians Doctor for you Sir
+type your answer: thanks
+2022-01-11 07:24:42,226-           root:104:        turn_handler():INFO - in_request=thanks ->
+ Welcome Sir/Mam
+type your answer: ok
+2022-01-11 07:24:46,841-           root:104:        turn_handler():INFO - in_request=ok ->
+ Welcome Sir/Mam
+type your answer: bye
+2022-01-11 07:24:50,353-           root:104:        turn_handler():INFO - in_request=bye ->
+ Sure Sir, I thanks for your visit but your can go other services if needed you can type 'hi'
+type your answer: hi
+2022-01-11 07:24:53,475-           root:104:        turn_handler():INFO - in_request=hi ->
+ Hi I'm Health and medicine Chatbot Assitant, how may help you?
+type your answer: what is health
+2022-01-11 07:24:59,789-           root:104:        turn_handler():INFO - in_request=what is health ->
+ Health refers to the extent of a person’s physical, mental, and social well-being. This definition, taken from the World Health Organization’s treatment of health, emphasizes that health is a complex concept that involves not just the soundness of a person’s body but also the state of a person’s mind and the quality of the social environment in which she or he lives. The quality of the social environment in turn can affect a person’s physical and mental health, underscoring the importance of social factors for these twin aspects of our overall well-being.
+type your answer: and medicine
+2022-01-11 07:25:06,234-           root:104:        turn_handler():INFO - in_request=and medicine ->
+ Medicine is the social institution that seeks both to prevent, diagnose, and treat illness and to promote health as just defined. Dissatisfaction with the medical establishment has been growing.Part of this dissatisfaction stems from soaring health-care costs and what many perceive as insensitive stinginess by the health insurance industry, as the 2009 battle over health-care reform illustrated. Some of the dissatisfaction also reflects a growing view that the social and even spiritual realms of human existence play a key role in health and illness. This view has fueled renewed interestin alternative medicine. We return later to these many issues for the social institution of medicine.
+type your answer: how can I change my diet plan
+2022-01-11 07:25:19,024-           root:104:        turn_handler():INFO - in_request=how can I change my diet plan ->
+ Diet is the sum of food consumed by a person or other organism. The word diet often implies the use of specific intake of nutrition for health or weight-management reasons (with the two often being related). Although humans are omnivores, each culture and each person holds some food preferences or some food taboos. This may be due to personal tastes or ethical reasons. Individual dietary choices may be more or less healthy.Diet includes a variety of plant-based and animal-based foods that provide nutrients tothe body. Such nutrients provide the body with energy and keep it running. Nutrients help build and strengthenbones, muscles, and tendons and also regulate body processes (i.e., blood pressure). Water is essential for growth, reproduction and good health. Macronutrients are consumed in relatively large quantities and include proteins, carbohydrates, and fats and fatty acids. Micronutrients – vitamins and minerals – are consumed in relatively smaller quantities, but are essential to body processes.
+type your answer: I issue of mental_Health
+2022-01-11 07:25:35,124-           root:104:        turn_handler():INFO - in_request=I issue of mental_Health ->
+ Mental health refers to cognitive, behavioral, and emotional well-being. It is all about how people think, feel, and behave. People sometimes use the term “mental health” to mean the absence of a mental disorder. Mental health can affect daily living, relationships, and physical health.Mental health as a state of well-being in which the individual realizes his or her own abilities, can cope with the normal stresses of life, can work productively and fruitfully, and is able to make a contribution to his or her community.
+type your answer: good
+2022-01-11 07:26:07,348-           root:104:        turn_handler():INFO - in_request=good ->
+ Welcome Sir/Mam
+```
