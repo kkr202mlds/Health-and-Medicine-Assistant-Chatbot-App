@@ -253,9 +253,8 @@ Issues:
 Test output:
 
 - - run_test() result:-
-
-```
 - English
+```
 2022-01-27 08:00:34,556-           root:105:        turn_handler():INFO - in_request=Hi ->
  Hi I'm Health and medicine Chatbot Assitant, how may help you?
 2022-01-27 08:00:34,572-           root:105:        turn_handler():INFO - in_request=I want to book a appointment? ->
