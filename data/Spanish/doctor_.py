@@ -1,0 +1,2 @@
+def doctor(user_input):
+    return"Hay muchos médicos como los siguientes:\n- Médicos\n- Cardiólogos\n- Gastroenterólogos\n- Dentista\n- Otorrinolaringólogo\n- Ginecólogo\nEscriba el tipo de médico de acuerdo con la forma anterior"
