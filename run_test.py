@@ -33,6 +33,7 @@ def turn_handler(
     return out_response, ctx
 
 testing_dialog = [
+    # English
     ("Hi", "Hi!, I'm Health and medicine Chatbot Assistant, how may help you?"),  # start_node -> node1
     ("I want to book a appointment?","OK! I have book a appointment of Doctor for health checkup for you Sir"),
     ("Physicians", "OK! I have book a appointment of physicians Doctor for you Sir"),  
@@ -66,7 +67,7 @@ testing_dialog = [
     ("Bedankt", "Welkom meneer/mama"),
     ("Goed service", "Welkom meneer/mama"),
     ("Niets","Natuurlijk meneer, ik dank u voor uw bezoek, maar u kunt indien nodig naar andere diensten gaan, u kunt 'hallo' typen"),
-    # greek
+    # Greek
     ("γεια", "Γεια!, είμαι Βοηθός Chatbot για την υγεία και την ιατρική, πώς μπορεί να σας βοηθήσει?"),
     ("Θέλω να κλείσω ένα ραντεβού?","ΟΚ! Έχω κλείσει ραντεβού γιατρού για έλεγχο υγείας για εσάς κύριε"),
     ("θελω α γιατρός", "Υπάρχουν πολλοί γιατροί όπως οι ακόλουθοι:\n- Γιατροί\n- Καρδιολόγοι\n- Γαστρεντερολόγοι\n- Οδοντίατρος\n- Ειδικός ΩΡΛ\n- Γυναικολόγος\nΠαρακαλώ γράψτε τον τύπο του γιατρού σύμφωνα με τον παραπάνω τρόπο"),    
@@ -88,7 +89,7 @@ testing_dialog = [
     ("bye", "Sure Sir, I thanks for your visit but your can go other services if needed you can type for english 'hi', for dutch 'Hallo', for spanish 'Hola', for greek 'γεια, for russian 'Привет', for danish 'Hej' and for arabic 'أهلا'"),
     
     
-    # russian
+    # Russian
     ("Здравствуйте", "Привет! Я Здоровье и медицина Помощник по чат-боту, как может вам помочь?"),
     ("назначение", "OKE! Ik heb een afspraak gemaakt met de dokter voor gezondheidscontrole voor u, mijnheer"),
     ("Кардиологи", "В ПОРЯДКЕ! Я записал вас на прием к  врачу, сэр."),
@@ -102,7 +103,7 @@ testing_dialog = [
     ("bye", "Sure Sir, I thanks for your visit but your can go other services if needed you can type for english 'hi', for dutch 'Hallo', for spanish 'Hola', for greek 'γεια, for russian 'Привет', for danish 'Hej' and for arabic 'أهلا'"),
     
     
-    # danish
+    # Danish
     ("Hej", "Hej!, jeg er Sundhed og Medicin Chatbot assistent, hvordan kan hjælpe dig?"),
     ("udnævnelse", "OK! Jeg har booket en tid hos lægen til sundhedstjek for dig Sir"),
     ("Kardiologer", "OK! Jeg har booket en tid til kardiologer læge til dig, hr"),
