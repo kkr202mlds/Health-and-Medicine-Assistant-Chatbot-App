@@ -33,6 +33,7 @@ def turn_handler(
     return out_response, ctx
 
 testing_dialog = [
+    
     # English
     ("Hi", "Hi!, I'm Health and medicine Chatbot Assistant, how may help you?"),  # start_node -> node1
     ("I want to book a appointment?","OK! I have book a appointment of Doctor for health checkup for you Sir"),
@@ -67,6 +68,7 @@ testing_dialog = [
     ("Bedankt", "Welkom meneer/mama"),
     ("Goed service", "Welkom meneer/mama"),
     ("Niets","Natuurlijk meneer, ik dank u voor uw bezoek, maar u kunt indien nodig naar andere diensten gaan, u kunt 'hallo' typen"),
+    
     # Greek
     ("γεια", "Γεια!, είμαι Βοηθός Chatbot για την υγεία και την ιατρική, πώς μπορεί να σας βοηθήσει?"),
     ("Θέλω να κλείσω ένα ραντεβού?","ΟΚ! Έχω κλείσει ραντεβού γιατρού για έλεγχο υγείας για εσάς κύριε"),
@@ -88,7 +90,6 @@ testing_dialog = [
     ("τίποτα","Βεβαίως κύριε, ευχαριστώ για την επίσκεψή σας, αλλά μπορείτε να πάτε σε άλλες υπηρεσίες αν χρειαστεί μπορείτε να πληκτρολογήσετε 'γεια'"),
     ("bye", "Sure Sir, I thanks for your visit but your can go other services if needed you can type for english 'hi', for dutch 'Hallo', for spanish 'Hola', for greek 'γεια, for russian 'Привет', for danish 'Hej' and for arabic 'أهلا'"),
     
-    
     # Russian
     ("Здравствуйте", "Привет! Я Здоровье и медицина Помощник по чат-боту, как может вам помочь?"),
     ("назначение", "OKE! Ik heb een afspraak gemaakt met de dokter voor gezondheidscontrole voor u, mijnheer"),
@@ -102,7 +103,6 @@ testing_dialog = [
     ("нет", "Конечно сэр, Я благодарю за ваш визит, но вы можете воспользоваться другими услугами, если это необходимо, вы можете ввести 'Привет'"),
     ("bye", "Sure Sir, I thanks for your visit but your can go other services if needed you can type for english 'hi', for dutch 'Hallo', for spanish 'Hola', for greek 'γεια, for russian 'Привет', for danish 'Hej' and for arabic 'أهلا'"),
     
-    
     # Danish
     ("Hej", "Hej!, jeg er Sundhed og Medicin Chatbot assistent, hvordan kan hjælpe dig?"),
     ("udnævnelse", "OK! Jeg har booket en tid hos lægen til sundhedstjek for dig Sir"),
@@ -113,6 +113,7 @@ testing_dialog = [
     ("diæt", "Kost er summen af ​​mad indtaget af en person eller en anden organisme. Ordet diæt indebærer ofte brugen af ​​et specifikt indtag af ernæring af sundhedsmæssige eller vægttabsmæssige årsager (hvor de to ofte hænger sammen). Selvom mennesker er altædende, har hver kultur og hver person nogle madpræferencer eller nogle madtabuer. Dette kan skyldes personlig smag eller etiske årsager. Individuelle kostvalg kan være mere eller mindre sunde. Kosten omfatter en række plante- og dyrebaserede fødevarer, der giver kroppen næringsstoffer. Sådanne næringsstoffer giver kroppen energi og holder den kørende. Næringsstoffer hjælper med at opbygge og styrke knogler, muskler og sener og regulerer også kropsprocesser (dvs. blodtryk). Vand er afgørende for vækst, reproduktion og et godt helbred. Makronæringsstoffer indtages i relativt store mængder og omfatter proteiner, kulhydrater og fedt og fedtsyrer. Mikronæringsstoffer – vitaminer og mineraler – indtages i relativt mindre mængder, men er afgørende for kroppens processer."),
     ("Takker", "Velkommen Sir/Mam"),
     ("bye", "Sure Sir, I thanks for your visit but your can go other services if needed you can type for english 'hi', for dutch 'Hallo', for spanish 'Hola', for greek 'γεια, for russian 'Привет', for danish 'Hej' and for arabic 'أهلا'"),
+    
     # Spanish
     ("Hola", "Hola!, soy asistente de un chatbot de salud y medicina, cómo puedo ayudarte?"),  # start_node -> node1
     ("quiero reservar una cita?","¡OK! He reservado una cita con el médico para un chequeo de salud para usted, señor."),
