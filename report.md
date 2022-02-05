@@ -732,7 +732,7 @@ Escriba el tipo de médico de acuerdo con la forma anterior
  Sure Sir, I thanks for your visit but your can go other services if needed you can type for english 'hi', for dutch 'Hallo', for spanish 'Hola', for greek 'γεια, for russian 'Привет', for danish 'Hej' and for arabic 'أهلا'
 ```
 
-# danish
+# Danish
 ```
 2022-01-28 01:42:41,347-           root:382:        turn_handler():INFO - in_request=Hej ->
  Hej!, jeg er Sundhed og Medicin Chatbot assistent, hvordan kan hjælpe dig?
