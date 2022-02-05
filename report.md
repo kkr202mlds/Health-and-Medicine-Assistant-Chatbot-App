@@ -594,7 +594,7 @@ type your answer: Niets
 exec time = 0.028s
 ```
 
-# spanish
+# Spanish
 - - test output
 ```
 2022-01-27 19:44:01,331-           root:383:        turn_handler():INFO - in_request=Hola ->
@@ -650,7 +650,7 @@ Escriba el tipo de médico de acuerdo con la forma anterior
 2022-01-27 19:44:02,033-           root:383:        turn_handler():INFO - in_request=nada ->
  Claro señor, gracias por su visita, pero puede ir a otros servicios si es necesario, puede escribir 'hola'
 ```
-# greek
+# Greek
 ```
 2022-01-28 01:42:40,334-           root:382:        turn_handler():INFO - in_request=γεια ->
  Γεια!, είμαι Βοηθός Chatbot για την υγεία και την ιατρική, πώς μπορεί να σας βοηθήσει?
@@ -707,7 +707,7 @@ Escriba el tipo de médico de acuerdo con la forma anterior
 2022-01-28 01:42:41,018-
 ```
 
-# russian
+# Russian
 ```
 Привет! Я Здоровье и медицина Помощник по чат-боту, как может вам помочь?
 2022-01-28 01:42:41,045-           root:382:        turn_handler():INFO - in_request=назначение ->
