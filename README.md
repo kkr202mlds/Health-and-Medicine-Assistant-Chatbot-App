@@ -20,6 +20,7 @@ python run_test.py
 
 ![image](https://user-images.githubusercontent.com/96828026/152642971-e9c732cc-42d1-44fa-87af-536cb89e8414.png)
 
+![image](https://user-images.githubusercontent.com/96828026/152643267-3fe0f093-29a1-47d2-b259-4e963b09fa36.png)
 
 ## Test output:
 
