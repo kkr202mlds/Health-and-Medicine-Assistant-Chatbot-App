@@ -753,3 +753,4 @@ Escriba el tipo de médico de acuerdo con la forma anterior
 2022-01-28 01:42:41,655-           root:382:        turn_handler():INFO - in_request=bye ->
  Sure Sir, I thanks for your visit but your can go other services if needed you can type for english 'hi', for dutch 'Hallo', for spanish 'Hola', for greek 'γεια, for russian 'Привет', for danish 'Hej' and for arabic 'أهلا'
 ```
+.
