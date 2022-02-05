@@ -17,7 +17,6 @@ Run tests
 python run_test.py
 ```
 ## Task
-Week 3
 
 ![image](https://user-images.githubusercontent.com/96828026/149251241-5f80859e-ebf8-457c-9253-923d7c9c9dbc.png)
 
