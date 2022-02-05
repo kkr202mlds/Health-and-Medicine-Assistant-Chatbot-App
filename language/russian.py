@@ -1,12 +1,12 @@
 import re
 from typing import Optional, Union, Any
 from df_engine.core import Context, Actor
-from data.Dutch.appointment_    import appointment
-from data.Dutch.doctor_         import doctor
-from data.Dutch.health_         import health
-from data.Dutch.medicine_       import medicine
-from data.Dutch.diet_           import diet
-from data.Dutch.mental_health_  import mental_health
+from data.Russian.appointment_    import appointment
+from data.Russian.doctor_         import doctor
+from data.Russian.health_         import health
+from data.Russian.medicine_       import medicine
+from data.Russian.diet_           import diet
+from data.Russian.mental_health_  import mental_health
 
 
 
