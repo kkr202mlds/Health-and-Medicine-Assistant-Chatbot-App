@@ -25,7 +25,7 @@ python run_test.py
 ## Test output:
 
 - run_test() result:-
-- English
+# English
 ```
 2022-01-27 08:00:34,556-           root:105:        turn_handler():INFO - in_request=Hi ->
  Hi I'm Health and medicine Chatbot Assitant, how may help you?
@@ -83,7 +83,7 @@ Please write type of doctor according above way
 ```
 - run_interactive_mode(actor) result:-
 
-- english
+## English
 ```
 type your answer: hey
 2022-01-11 07:23:17,806-           root:104:        turn_handler():INFO - in_request=hey ->
@@ -132,7 +132,7 @@ type your answer: good
 2022-01-11 07:26:07,348-           root:104:        turn_handler():INFO - in_request=good ->
  Welcome Sir/Mam
 ```
-- Dutch
+# Dutch
 - - test output
 ```
 2022-01-27 16:04:33,211-           root:383:        turn_handler():INFO - in_request=hallo ->
@@ -191,7 +191,7 @@ Schrijf het type arts op volgens bovenstaande manier
 ```
 - - interactive output
 
-- dutch
+## Dutch
 ```
 type your answer: Hallo
 2022-01-27 11:39:22,858-           root: 32:        turn_handler():INFO - in_request=Hallo ->
@@ -370,7 +370,7 @@ type your answer: Niets
 exec time = 0.028s
 ```
 
-# spanish
+# Spanish
 - - test output
 ```
 2022-01-27 19:44:01,331-           root:383:        turn_handler():INFO - in_request=Hola ->
@@ -426,7 +426,7 @@ Escriba el tipo de médico de acuerdo con la forma anterior
 2022-01-27 19:44:02,033-           root:383:        turn_handler():INFO - in_request=nada ->
  Claro señor, gracias por su visita, pero puede ir a otros servicios si es necesario, puede escribir 'hola'
 ```
-# greek
+# Greek
 ```
 2022-01-28 01:42:40,334-           root:382:        turn_handler():INFO - in_request=γεια ->
  Γεια!, είμαι Βοηθός Chatbot για την υγεία και την ιατρική, πώς μπορεί να σας βοηθήσει?
@@ -483,7 +483,7 @@ Escriba el tipo de médico de acuerdo con la forma anterior
 2022-01-28 01:42:41,018-
 ```
 
-# russian
+# Russian
 ```
 Привет! Я Здоровье и медицина Помощник по чат-боту, как может вам помочь?
 2022-01-28 01:42:41,045-           root:382:        turn_handler():INFO - in_request=назначение ->
@@ -508,7 +508,7 @@ Escriba el tipo de médico de acuerdo con la forma anterior
  Sure Sir, I thanks for your visit but your can go other services if needed you can type for english 'hi', for dutch 'Hallo', for spanish 'Hola', for greek 'γεια, for russian 'Привет', for danish 'Hej' and for arabic 'أهلا'
 ```
 
-# danish
+# Danish
 ```
 2022-01-28 01:42:41,347-           root:382:        turn_handler():INFO - in_request=Hej ->
  Hej!, jeg er Sundhed og Medicin Chatbot assistent, hvordan kan hjælpe dig?
