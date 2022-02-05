@@ -1,0 +1,2 @@
+def doctor(user_input):
+    return"Er zijn veel artsen zoals de volgende:\n- Artsen\n- Cardiologen\n- Gastro-enterologen\n- Tandarts\n- KNO-arts\n- Gynaecoloog\nSchrijf het type arts op volgens bovenstaande manier"
