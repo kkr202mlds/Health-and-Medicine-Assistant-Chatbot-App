@@ -18,6 +18,9 @@ python run_test.py
 ```
 # Task
 
+![image](https://user-images.githubusercontent.com/96828026/152642971-e9c732cc-42d1-44fa-87af-536cb89e8414.png)
+
+
 ## Test output:
 
 - run_test() result:-
