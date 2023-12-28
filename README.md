@@ -1,7 +1,10 @@
 ## ml_s_kill_hack_2.0
 
 ## Description
-It based on Dialog Flow Framework(DFF) using Dialog Flow Engine (DFE) allows you to write conversational services such services chat-bots for social networks. It having Data folder and Data files and 6 Different Languages. It take the response for User by Medical Chatbot Services. Create mainstream languages in English & non-mainstream languages. ML Model and Library: Neural Network Model and NL Programming library as Natural Language Toolkit(nltk), Stemming and matplotlib![image](https://github.com/Kkumar-20/Health-and-Medicine-Assistant-Chatbot-App/assets/96828026/d7d8cfad-89bd-44f6-b362-e3e49090ae0a)
+- It based on Dialog Flow Framework(DFF) using Dialog Flow Engine (DFE) allows you to write conversational services such services chat-bots for social networks.
+- It having Data folder and Data files and 6 Different Languages.
+- It take the response for User by Medical Chatbot Services. Create mainstream languages in English & non-mainstream languages.
+- ML Model and Library: Neural Network Model and NL Programming library as Natural Language Toolkit(nltk), Stemming and matplotlib.
 
 **dff_health_&_medicine_skill** 
 ## Quickstart
